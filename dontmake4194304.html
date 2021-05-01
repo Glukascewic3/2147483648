@@ -24,7 +24,7 @@
 <body>
   <div class="container">
     <div class="heading">
-      <h1 class="title">4194304</h1>
+      <h1 class="title">Don't make 16384</h1>
       <div class="scores-container">
         <div class="score-container">0</div>
         <div class="best-container">0</div>
@@ -32,7 +32,7 @@
     </div>
 
     <div class="above-game">
-      <p class="game-intro">Join the numbers and get to game over before you make <strong>4194304 tile!</strong></p>
+      <p class="game-intro">Join the numbers and get to game over before you make <strong>16384 tile!</strong></p>
       <a class="restart-button">Play again</a>
     </div>
 
@@ -107,7 +107,7 @@
     </p>
     <hr>
     <p>
-      Can you reach <strong>4194304, 8388608, and 16777216 tiles?</strong>
+      Can you not reach <strong>16384 tile?</strong>
     </p>
     <hr>
     <p>
@@ -125,7 +125,7 @@
   <script src="js_2048/local_storage_manager.js"></script>
   <script src="js_2048/game_manager_inverted.js"></script>
   <script>
-  var Goal = 4194304
+  var Goal = 16384
   window.requestAnimationFrame(function () {
   new GameManager(6, KeyboardInputManager, HTMLActuator, LocalStorageManager);
   });
